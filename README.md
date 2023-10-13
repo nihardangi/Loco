@@ -14,6 +14,9 @@ You should have the following installed on your system:
 * Go version (go1.21.3)
 * PostgreSQL
 
+1. Create a new database named 'loco'
+2. Edit the username and password in config-dev.yaml file.
+
 To run project:
 ```
 go mod download
