@@ -1,0 +1,13 @@
+name: Loco
+env:
+    logBaseUrl: /var/log/Loco/
+    env: development
+    logLevel: info
+    logger: zap
+    httpport: ':8080'
+postgres:
+    url: 'localhost'
+    user: 'nihar'
+    password: 'nihar'
+    database: 'loco'
+    port: 5432   
